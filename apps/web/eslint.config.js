@@ -18,6 +18,10 @@ export default defineConfig([
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
+      parserOptions: {
+        // 프로젝트 루트를 명시해 tsconfig 탐색 충돌을 방지
+        tsconfigRootDir: import.meta.dirname,
+      },
     },
   },
 ])

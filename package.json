@@ -8,5 +8,10 @@
     "dev:api": "pnpm --filter api dev",
     "build": "pnpm -r --if-present build",
     "test": "pnpm -r --if-present test"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
   }
 }
