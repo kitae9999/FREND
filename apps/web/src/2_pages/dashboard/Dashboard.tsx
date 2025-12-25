@@ -1,7 +1,8 @@
 export const Dashboard = () => {
 
-    return 
+    return (
         <>
-            
+            <p>대시보드임</p>
         </>
+    )     
 };

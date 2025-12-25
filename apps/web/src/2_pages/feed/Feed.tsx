@@ -1,5 +1,7 @@
 export const Feed = ()=>{
-    return
-    <>
-    </>
+    return(
+        <>
+            <p>피드임</p>
+        </>
+    )
 }
