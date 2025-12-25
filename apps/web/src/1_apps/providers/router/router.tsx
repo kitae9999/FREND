@@ -1,14 +1,21 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Feed } from "@/2_pages/feed/Feed";
 import { Dashboard } from "@/2_pages/dashboard/Dashboard";
+import { RootLayout } from "@/1_apps/layouts/RootLayout";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Feed />,
-  },
-  {
-    path: "/dashboard",
-    element: <Dashboard />,
+    element: <RootLayout />,
+    children: [
+      {
+        path: "/",
+        element: <Feed />,
+      },
+      {
+        path: "/dashboard",
+        element: <Dashboard />,
+      },
+    ],
   },
 ]);
