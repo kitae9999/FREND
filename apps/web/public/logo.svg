@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B6B" />
+      <stop offset="50%" stop-color="#A45EE5" />
+      <stop offset="100%" stop-color="#2D75FF" />
+    </linearGradient>
+  </defs>
+
+  <path
+    d="M 60,105 C 50,105 40,100 40,85 C 40,70 50,65 70,65 C 85,65 95,75 110,75 C 125,75 130,65 130,55 C 130,45 120,35 105,35 L 135,35 L 135,65 L 105,65 C 120,65 125,75 125,85 C 125,95 115,105 100,105 C 80,105 70,95 55,95 C 40,95 35,105 35,115 C 35,125 45,135 60,135 L 80,135 L 80,125 L 60,125 Z"
+    fill="url(#logoGradient)"
+    transform="translate(0, 0) scale(0.8)"
+  />
+
+  <text
+    x="160"
+    y="95"
+    font-family="Arial, sans-serif"
+    font-weight="bold"
+    font-size="60"
+    fill="url(#logoGradient)"
+  >
+    FREND
+  </text>
+</svg>
