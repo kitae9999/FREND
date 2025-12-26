@@ -21,19 +21,19 @@ export const Gnb = () => {
             className="text-sm font-extrabold text-white transition-colors hover:text-blue-400"
             onClick={() => navigate("/dashboard")}
           >
-            DASHBOARD
+            Dashboard
           </button>
           <button
             className="text-sm font-extrabold text-white transition-colors hover:text-blue-400"
             onClick={() => navigate("/")}
           >
-            FEED
+            Feed
           </button>
           <button
             className="text-sm font-extrabold text-white transition-colors hover:text-blue-400"
             onClick={() => navigate("/")}
           >
-            PROFILE
+            Profile
           </button>
           <div>
             <img src="notice.svg" alt="알림 아이콘" />
