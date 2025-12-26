@@ -1,7 +1,7 @@
 type ActivityKind = "release" | "club" | "post" | "stat";
 type ActivityTone = "neutral" | "warm" | "accent";
 
-export type ActivityItemV2Props = {
+export type ActivityItemProps = {
   kind: ActivityKind;
   title: string;
   createdAt?: string; // ISO string
@@ -49,7 +49,7 @@ const formatRelativeTime = (createdAt: string) => {
   return rtf.format(diffDays, "day");
 };
 
-export const ActivityItemV2 = ({
+export const ActivityItem = ({
   kind,
   title,
   createdAt,
@@ -61,7 +61,7 @@ export const ActivityItemV2 = ({
   time,
   tone = "neutral",
   className = "",
-}: ActivityItemV2Props) => {
+}: ActivityItemProps) => {
   const relativeTime = createdAt ? formatRelativeTime(createdAt) : "";
 
   return (

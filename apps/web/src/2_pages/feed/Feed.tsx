@@ -1,6 +1,6 @@
-import { ActivityItemV2 } from "@/4_shared/ui/ActivityItem";
+import { ActivityItem } from "@/4_shared/ui/ActivityItem";
 
-export const FeedV2 = () => {
+export const Feed = () => {
   const items = [
     {
       id: "release-1",
@@ -63,7 +63,7 @@ export const FeedV2 = () => {
         </header>
         <div className="grid grid-cols-1 gap-4 md:grid-flow-dense md:grid-cols-12 md:auto-rows-[160px] md:gap-6">
           {items.map((item) => (
-            <ActivityItemV2 key={item.id} {...item} />
+            <ActivityItem key={item.id} {...item} />
           ))}
         </div>
       </div>
