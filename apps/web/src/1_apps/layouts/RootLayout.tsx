@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 export const RootLayout = () => {
   return (
-    <div className="min-h-screen bg-[#0F0F1E] ">
+    <div className="min-h-screen bg-[#111112] ">
       <Gnb />
       <div className="flex">
         <SideBar />

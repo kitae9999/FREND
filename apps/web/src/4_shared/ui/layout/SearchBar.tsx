@@ -9,7 +9,7 @@ export const SearchBar = () => {
       <input
         type="search"
         placeholder="Search friends, artists..."
-        className="h-[45px] w-full rounded-[12px] border border-[#2A2A3E] bg-[#0F0F1F] pl-10 pr-3 text-sm text-[#99A1AF] placeholder:text-[#99A1AF] outline-none focus:ring-2 focus:ring-[#5f6b8a]"
+        className="h-[45px] w-full rounded-[12px] border border-[#2A2A3E] bg-[#18181C] pl-10 pr-3 text-sm text-[#99A1AF] placeholder:text-[#99A1AF] outline-none focus:ring-2 focus:ring-[#5f6b8a]"
       />
     </form>
   );

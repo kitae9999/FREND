@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-family: 'Spotify Mix', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
   color: #0f172a;
   background-color: #f8fafc;
   text-rendering: optimizeLegibility;
@@ -15,6 +16,167 @@ body {
   margin: 0;
   min-height: 100vh;
 }
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Regular.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix Medium'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Medium.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix Bold'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Bold.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix Italic'),
+    url('/fonts/spotify-mix/font/SpotifyMix-RegularItalic.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix Thin'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Thin.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix Thin Italic'),
+    url('/fonts/spotify-mix/font/SpotifyMix-ThinItalic.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix Light'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Light.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix Light Italic'),
+    url('/fonts/spotify-mix/font/SpotifyMix-LightItalic.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix Medium Italic'),
+    url('/fonts/spotify-mix/font/SpotifyMix-MediumItalic.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix Bold Italic'),
+    url('/fonts/spotify-mix/font/SpotifyMix-BoldItalic.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix ExtraBold'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Extrabold.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Extrabold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix ExtraBold Italic'),
+    url('/fonts/spotify-mix/font/SpotifyMix-ExtraboldItalic.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-ExtraboldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix Black'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Black.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix Black Italic'),
+    url('/fonts/spotify-mix/font/SpotifyMix-BlackItalic.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix Ultra'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Ultra.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-Ultra.woff') format('woff');
+  font-weight: 950;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Spotify Mix';
+  src: local('Spotify Mix Ultra Italic'),
+    url('/fonts/spotify-mix/font/SpotifyMix-UltraItalic.woff2') format('woff2'),
+    url('/fonts/spotify-mix/font/SpotifyMix-UltraItalic.woff') format('woff');
+  font-weight: 950;
+  font-style: italic;
+  font-display: swap;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
