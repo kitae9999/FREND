@@ -5,7 +5,7 @@ export const Gnb = () => {
   const navigate = useNavigate();
 
   return (
-    <nav className="flex h-[72px] items-center gap-6 px-6 shadow bg-[#1a1a2e]">
+    <nav className="flex h-[72px] items-center gap-6 px-6 shadow border-b border-solid border-[#2A2A3E] bg-[#1a1a2e]">
       <div className="h-10 w-auto">
         <img src="/logo.svg" alt="FREND 로고" className="h-full w-auto" />
       </div>
@@ -13,7 +13,7 @@ export const Gnb = () => {
       <div className="flex flex-1 items-center gap-6">
         <SearchBar />
 
-        <div className="ml-auto flex items-center gap-4">
+        <div className="ml-auto flex items-center gap-6">
           <button
             className="text-sm font-medium text-white transition-colors hover:text-blue-400"
             onClick={() => navigate("/dashboard")}
@@ -32,6 +32,9 @@ export const Gnb = () => {
           >
             Profile
           </button>
+          <div>
+            <img src="notice.svg" alt="알림 아이콘" />
+          </div>
           <div className="h-8 w-8 rounded-full bg-[#2A2A3E]" aria-hidden />
         </div>
       </div>
